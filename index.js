@@ -69,7 +69,7 @@
 
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
-viewer.setMaxPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
     var urlPrefix = "tiles";
